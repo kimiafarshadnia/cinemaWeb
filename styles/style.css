@@ -237,19 +237,11 @@ a {
     background-image: url('../images/Group\ 105.png');
 }
 
-#item1.active {
-    background-image: url('../images/Group\ 107.png');
-}
-
 
 /*razebagha*/
 
 #item2 {
     background-image: url('../images/Group\ 75.png');
-}
-
-#item2.active {
-    background-image: url('../images/Group\ 112.png');
 }
 
 
@@ -259,19 +251,11 @@ a {
     background-image: url('../images/Group\ 76.png');
 }
 
-#item3.active {
-    background-image: url('../images/Group\ 114.png');
-}
-
 
 /*jeyran*/
 
 #item4 {
     background-image: url('../images/Group\ 77.png');
-}
-
-#item4.active {
-    background-image: url('../images/Group\ 113.png');
 }
 
 
