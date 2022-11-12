@@ -48,6 +48,9 @@
         width: 15px;
     }
     /*The Best Seller*/
+    .slide {
+        height: 260px;
+    }
     .slide.active {
         flex: 2;
     }
@@ -154,6 +157,10 @@
     .mt-6 {
         margin-top: 4.2rem;
     }
+    /*The Best Seller*/
+    .slide {
+        height: 350px;
+    }
     /*Iranian & Foriegn Series */
     .series {
         width: 120px;
@@ -197,6 +204,10 @@
     }
     .swiper-slide {
         margin-left: 20px!important;
+    }
+    /*The Best Seller*/
+    .slide {
+        height: 440px;
     }
 }
 
