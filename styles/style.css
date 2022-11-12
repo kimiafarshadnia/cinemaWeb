@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    /*for titles*/
+    font-family: Casablanca;
+    src: url(./fonts/Casablanca.Font.ttf);
+    /*for paragraphes*/
+    font-family: vazir;
+    src: url(./fonts/Vazir-Regular.ttf);
+}
+
+body {
+    font-family: vazir !important;
+    background: #1E1E1E !important;
+    color: white !important;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+/*tickets*/
+
+.dot {
+    position: relative;
+    top: -0.3rem;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #1E1E1E;
+    z-index: 1;
+}
+
+.dot-left {
+    left: 0.75rem;
+}
+
+.dot-right {
+    right: 0.75rem;
+}
+
+.ticket {
+    width: 12rem;
+}
+
+.ticket-body {
+    position: relative;
+    top: -6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 7rem;
+    background: rgba(217, 217, 217, 0.94);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.film-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.info-ticket {
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    color: #767676;
+}
+
+.btn-ticket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11rem;
+    height: 2rem;
+    background: #FF2929;
+    border-radius: 20px;
+    background-color: #FF2929;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.8px;
+}
+
+.more-ticket {
+    background-color: #FF2929;
+    color: #FFFFFF;
+    font-size: 11px;
+    width: 122px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+/*The Lord of the rings*/
+
+.theLordOfRings {
+    width: 100%;
+    height: 742px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.content-theLordOfTheRings {
+    z-index: 1;
+}
+
+.theLordOfRings-title {
+    font-family: Casablanca;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+.info-theLordOfRings {
+    padding-right: 4rem;
+}
+
+.episode {
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.episode-time {
+    float: left;
+    margin: 10px;
+    width: 57px;
+    height: auto;
+    padding: 2px;
+    background: #3D3D3D;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #C4C4C4;
+    text-align: center;
+}
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.icon {
+    width: 50px;
+    z-index: 1;
+}
+
+.icon-play {
+    display: none;
+}
+
+#episodeOne:hover>.icon-play {
+    display: block;
+}
+
+#episodeOne {
+    background-image: url('../images/Group\ 94.png');
+}
+
+#episodeOne:hover {
+    background-image: url('../images/Group\ 91.png');
+}
+
+
+/*The Best Seller */
+
+.slide {
+    height: 448px;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+    color: #fff;
+    flex: 2;
+    /* background-color: #fff; */
+    position: relative;
+    transition: all 500ms ease-in-out;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.slide .design-slide {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.slide.active {
+    flex: 10;
+}
+
+.slide.active .design-slide {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+.info-slide {
+    width: 90%;
+    height: 151px;
+    background: rgba(206, 206, 206, 0.7);
+    border-radius: 20px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-slide p {
+    width: 85%;
+    font-size: 12px;
+    text-align: justify;
+}
+
+
+/*aghazadeh*/
+
+#item1 {
+    background-image: url('../images/Group\ 75.png');
+}
+
+#item1.active {
+    background-image: url('../images/Rectangle\ 39.png');
+}
+
+
+/*razebagha*/
+
+#item2 {
+    background-image: url('../images/Group\ 75.png');
+}
+
+#item2.active {
+    background-image: url('../images/image\ 125.png');
+}
+
+
+/*zakhme kari */
+
+#item3 {
+    background-image: url('../images/Group\ 76.png');
+}
+
+#item3.active {
+    background-image: url('../images/image\ 113.png');
+}
+
+
+/*jeyran*/
+
+#item4 {
+    background-image: url('../images/Group\ 77.png');
+}
+
+#item4.active {
+    background-image: url('../images/image\ 124.png');
+}
+
+
+/*swiper slider and all slider to use*/
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    flex-shrink: 1 !important;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/* The Iranian & Foreign Series*/
+
+.series {
+    width: 180px;
+}
+
+.swiper-slider-img::before {
+    width: 75%;
+    top: -0.5rem;
+}
+
+.swiper-slider-img::before,
+.swiper-slider-img::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: #AFAFAF;
+    position: absolute;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+}
+
+.swiper-slider-img::after {
+    width: 85%;
+    top: -0.25rem;
+}
+
+.series:hover>.swiper-slider-img>.hover-effect {
+    display: block;
+}
+
+.hover-effect {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 16px;
+}
+
+.hover-effect img {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 37%;
+}
+
+.swiper-slider-img {
+    display: block;
+    object-fit: cover;
+}
+
+.line {
+    position: absolute;
+    height: 1px;
+    background-color: #AFAFAF;
+}
+
+.lineUp {
+    width: 70%;
+    top: 0;
+}
+
+.lineBottom {
+    width: 85%;
+    top: 0.75rem;
+}

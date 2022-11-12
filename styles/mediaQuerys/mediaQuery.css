@@ -1,0 +1,361 @@
+@media screen and (min-width: 280px) {
+    .title {
+        font-family: Casablanca !important;
+        font-size: 1rem;
+    }
+    /*tickets*/
+    .ticket-body {
+        width: 8rem;
+        top: -4rem;
+        height: 8rem;
+    }
+    .ticket {
+        width: 8rem;
+    }
+    .btn-ticket {
+        width: 7rem;
+        height: 1.6rem;
+        font-size: 10px;
+    }
+    .dot {
+        display: none;
+    }
+    /*The Lord of the rings*/
+    .theLordOfRings {
+        background-image: url("../../images/image\ 136.png");
+    }
+    .theLordOfRings-title {
+        font-size: 0.75rem;
+    }
+    .episode {
+        min-width: 3rem;
+        height: 4rem;
+    }
+    .episode-time {
+        float: left;
+        margin: 3px;
+        width: 23px;
+        padding: 1px;
+        font-size: 5px;
+        line-height: 7px;
+        color: #C4C4C4;
+        text-align: center;
+    }
+    .mt-6 {
+        margin-top: 1rem;
+    }
+    .icon {
+        width: 15px;
+    }
+    /*The Best Seller*/
+    .slide.active {
+        flex: 2;
+    }
+    .swiper-slide {
+        margin-left: 10px!important;
+    }
+}
+
+@media screen and (min-width: 358px) {
+    .ticket-body {
+        width: 10rem;
+        top: -4rem;
+    }
+    .ticket {
+        width: 10rem;
+    }
+    .btn-ticket {
+        width: 8rem;
+    }
+    /*The Lord of the rings*/
+    .theLordOfRings-title {
+        font-size: 1rem;
+    }
+    .episode {
+        min-width: 5rem;
+        height: 7rem;
+    }
+    .mt-6 {
+        margin-top: 2.7rem;
+    }
+    .icon {
+        width: 20px;
+    }
+}
+
+@media screen and (min-width: 428px) {
+    .title {
+        font-size: 1.2rem;
+    }
+    /*tickets*/
+    .ticket-body {
+        width: 12rem;
+        top: -5rem;
+    }
+    .ticket {
+        width: 12rem;
+    }
+    .btn-ticket {
+        width: 10rem;
+        font-size: 12px;
+    }
+    /*The Lord of the rings*/
+    .episode {
+        min-width: 6rem;
+        height: 8rem;
+    }
+    .mt-6 {
+        margin-top: 3.2rem;
+    }
+    .icon {
+        width: 25px;
+    }
+}
+
+@media screen and (min-width: 490px) {
+    .ticket-body {
+        width: 14rem;
+        top: -5rem;
+    }
+    .ticket {
+        width: 14rem;
+    }
+    .btn-ticket {
+        width: 10rem;
+        font-size: 12px;
+    }
+    /*The Lord of the rings*/
+    .theLordOfRings-title {
+        font-size: 1.3rem;
+    }
+    .episode {
+        min-width: 7rem;
+        height: 10rem;
+    }
+    .episode-time {
+        margin: 5px;
+        width: 27px;
+        padding: 2px;
+        font-size: 6px;
+        line-height: 8px;
+    }
+    .mt-6 {
+        margin-top: 4.2rem;
+    }
+    /*Iranian & Foriegn Series */
+    .series {
+        width: 120px;
+    }
+}
+
+@media screen and (min-width:567px) {
+    /*Iranian & Foriegn Series */
+    .series {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .ticket-body {
+        top: -6rem;
+        height: 7rem;
+    }
+    .dot {
+        display: block;
+        top: 0.1rem;
+        width: 24px;
+        height: 24px;
+    }
+    .dot-right {
+        right: 0.5rem;
+    }
+    .dot-left {
+        right: -0.5rem;
+    }
+    /*The Lord of the rings*/
+    .theLordOfRings {
+        background-image: url("../../images/image\ 22.png");
+    }
+    .info-theLordOfRings {
+        font-size: 10px;
+    }
+    .episode {
+        min-width: 7rem;
+        height: 10rem;
+    }
+    .swiper-slide {
+        margin-left: 20px!important;
+    }
+}
+
+@media screen and (min-width: 630px) {
+    /*The Lord of the rings*/
+    .info-theLordOfRings {
+        font-size: 12px;
+    }
+    .episode {
+        min-width: 8rem;
+        height: 9rem;
+    }
+    /*Iranian & Foriegn Series */
+    .series {
+        width: 166px;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    /*The Lord of the rings*/
+    .episode {
+        min-width: 9rem;
+        height: 11rem;
+    }
+    .episode-time {
+        margin: 8px;
+        width: 37px;
+        padding: 4px;
+        font-size: 8px;
+        line-height: 8px;
+    }
+    .mt-6 {
+        margin-top: 4.5rem;
+    }
+    .icon {
+        width: 35px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    /*The Lord of the rings*/
+    .theLordOfRings-title {
+        font-size: 2rem;
+    }
+    .info-theLordOfRings {
+        font-size: 14px;
+        margin-top: 1rem;
+    }
+    .episode {
+        min-width: 10rem;
+        height: 12rem;
+    }
+    .episode-slider {
+        margin-top: 2rem;
+    }
+    .mt-6 {
+        margin-top: 5.1rem;
+    }
+    /*The Best Seller*/
+    .slide.active {
+        flex: 10;
+    }
+    /*Iranian & Foriegn Series */
+    .series {
+        width: 180px;
+    }
+    .swiper-slide {
+        margin-left: 30px!important;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    /*The Lord of the rings*/
+    .mt-episodes {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    /*The Lord of the rings*/
+    .episode {
+        min-width: 11rem;
+        height: 13rem;
+    }
+    .mt-6 {
+        margin-top: 5.9rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /*The Lord of the rings*/
+    .info-theLordOfRings {
+        font-size: 16px;
+    }
+    .theLordOfRings-title {
+        font-size: 2.5rem;
+        line-height: 7rem;
+    }
+    .episode-slider {
+        margin-top: 3rem;
+    }
+    .episode-time {
+        margin: 10px;
+        width: 50px;
+        padding: 6px;
+        font-size: 10px;
+        line-height: 9px;
+    }
+    .mt-6 {
+        margin-top: 5.2rem;
+    }
+    .icon {
+        width: 45px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .ticket {
+        width: 12rem;
+    }
+    .ticket-body {
+        width: 12rem;
+    }
+    .dot {
+        top: -1rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /*The Lord of the rings*/
+    .info-theLordOfRings {
+        font-size: 20px;
+    }
+    .episode {
+        min-width: 14rem;
+        height: 17rem;
+    }
+    .episode-time {
+        margin: 15px;
+        width: 56px;
+        padding: 7px;
+        font-size: 12px;
+        line-height: 11px
+    }
+    .mt-6 {
+        margin-top: 7rem;
+    }
+    .icon {
+        width: 55px;
+    }
+    /*Iranian & Foriegn Series */
+    .series {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .episode {
+        min-width: 14rem;
+        height: 19rem;
+    }
+    .theLordOfRings {
+        background-size: cover;
+    }
+    .info-theLordOfRings {
+        font-size: 25px;
+    }
+    .mt-6 {
+        margin-top: 7.5rem;
+    }
+}
