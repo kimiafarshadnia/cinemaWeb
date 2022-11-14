@@ -49,7 +49,7 @@
     }
     /*The Best Seller*/
     .slide {
-        height: 260px;
+        height: 200px;
     }
     .slide.active {
         flex: 2;
@@ -95,6 +95,10 @@
     }
     .icon {
         width: 20px;
+    }
+    /*The Best Seller*/
+    .slide {
+        height: 240px;
     }
 }
 
