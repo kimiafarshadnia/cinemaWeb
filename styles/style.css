@@ -111,8 +111,8 @@ a {
 
 .theLordOfRings {
     width: 100%;
-    height: 742px;
-    background-size: contain;
+    /* height: 742px; */
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
