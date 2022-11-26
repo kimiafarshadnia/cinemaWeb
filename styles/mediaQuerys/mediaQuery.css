@@ -69,6 +69,10 @@
     #item4.active {
         background-image: url('../../images/Group\ 77.png');
     }
+    /*Iranian & Foriegn Series */
+    .series {
+        width: 100px;
+    }
 }
 
 @media screen and (min-width: 358px) {
@@ -99,6 +103,10 @@
     /*The Best Seller*/
     .slide {
         height: 240px;
+    }
+    /*Iranian & Foriegn Series */
+    .series {
+        width: 120px;
     }
 }
 
@@ -164,10 +172,6 @@
     /*The Best Seller*/
     .slide {
         height: 350px;
-    }
-    /*Iranian & Foriegn Series */
-    .series {
-        width: 120px;
     }
 }
 
