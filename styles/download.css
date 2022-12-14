@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    font-family: vazir !important;
+    transition: all 0.3s;
+}
+
+@font-face {
+    /*for titles*/
+    font-family: Casablanca;
+    src: url(./fonts/Casablanca.Font.ttf);
+    /*for paragraphes*/
+    font-family: vazir;
+    src: url(./fonts/Vazir-Regular.ttf);
+}
+
+p {
+    margin-bottom: 0 !important;
+    font-size: 0.75rem;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.bg-body {
+    background-color: #1E1E1E !important;
+}
+
+.bg-btn {
+    background-color: #1e1e1e00;
+}
