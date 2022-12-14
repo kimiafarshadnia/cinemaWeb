@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+    font-family: vazir !important;
+    transition: all 0.3s;
+}
+
+@font-face {
+    /*for titles*/
+    font-family: Casablanca;
+    src: url(./fonts/Casablanca.Font.ttf);
+    /*for paragraphes*/
+    font-family: vazir;
+    src: url(./fonts/Vazir-Regular.ttf);
+}
+
+p {
+    margin-bottom: 0 !important;
+    font-size: 0.75rem;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.bg-body {
+    background-color: #1E1E1E !important;
+}
+
+.bg-filter {
+    background-color: #292929;
+    border-radius: 25px;
+}
+
+.bg-btn-emal {
+    background-color: #1C1A18;
+}
+
+.form-select {
+    font-size: 0.75rem;
+    color: #ffff;
+    background-color: #1C1A18;
+    border-color: #1C1A18;
+}
+
+.form-select:focus {
+    color: #ffff;
+    background-color: #1C1A18;
+    border-color: #1C1A18;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0);
+}
+
+.form-control {
+    font-size: 0.75rem;
+    color: #ffff;
+    background-color: #1C1A18;
+    border-color: #1C1A18;
+}
+
+.form-control:focus {
+    color: #ffff;
+    background-color: #1C1A18;
+    border-color: #1C1A18;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0);
+}
+
+.btn {
+    font-size: 0.75rem;
+}
+
+input,
+button,
+select {
+    cursor: pointer;
+}
+
+.animation {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

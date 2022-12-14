@@ -1,0 +1,183 @@
+@media only screen and (min-width: 1024px) {
+  .discount-code-box {
+    width: 75%;
+  }
+  .discount-btn {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .icon-searchBar svg {
+    width: 20px;
+    height: 20px;
+  }
+  .formSearchBar {
+    width: auto;
+    max-width: 100px;
+  }
+  .discount-code-box {
+    width: 75%;
+  }
+  .discount-btn {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 993px) {
+  .header {
+    height: 70vh;
+  }
+  .menuMobile {
+    top: 70px;
+    height: auto;
+  }
+  .sectionCategory {
+    width: 75%;
+  }
+  .parenDropDown {
+    display: none;
+  }
+  .text-discount-link {
+    font-size: 14px;
+  }
+  .discount-input,
+  .discount-input::placeholder {
+    font-size: 12px;
+  }
+  .section-buy-subscription-icon {
+    width: 20%;
+    border-left: 2px dashed #a4a4a4;
+  }
+  .section-buy-subscription {
+    width: 80%;
+  }
+  .text-main-header {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .menuMobile {
+    top: 54px;
+    height: auto;
+  }
+  .btn-slider-right {
+    right: 35px;
+  }
+  .btn-slider-left {
+    left: 35px;
+  }
+  .text-main-header {
+    width: 100%;
+  }
+  #btnBuySubscriptionMainHeader span,
+  #btnBuyTiketMainHeader span {
+    font-size: 14px;
+  }
+  #btnBuySubscriptionMainHeader svg,
+  #btnBuyTiketMainHeader svg {
+    width: 22px;
+    height: 22px;
+  }
+  .text-discount-link {
+    font-size: 14px;
+  }
+  .discount-input,
+  .discount-input::placeholder {
+    font-size: 14px;
+    margin-top: 5px;
+    width: 100%;
+  }
+  .discount-code-box {
+    width: 100%;
+  }
+  .discount-btn {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .slider img {
+    width: 150px;
+  }
+  .listMobile li a {
+    font-size: 10px;
+  }
+  .btn-slider-right {
+    right: 0;
+  }
+  .btn-slider-left {
+    left: 0;
+  }
+  .icon-searchBar svg {
+    width: 16px;
+    height: 16px;
+  }
+  .sectionCategory {
+    width: 100%;
+  }
+  .text-discount-link {
+    font-size: 12px;
+  }
+  .discount-input,
+  .discount-input::placeholder {
+    font-size: 12px;
+  }
+  .section-buy-subscription-icon::after {
+    content: "";
+    position: absolute;
+    top: -17px;
+    right: 77px;
+  }
+  .section-buy-subscription-icon::before {
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    right: 77px;
+  }
+  .title-buy-subscription {
+    font-size: 14px;
+  }
+  #btnBuySubscriptionMainHeader {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .section-buy-subscription-icon::after {
+    content: "";
+    position: absolute;
+    top: -17px;
+    right: 60px;
+  }
+  .section-buy-subscription-icon::before {
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    right: 60px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .section-buy-subscription-icon::after {
+    content: "";
+    position: absolute;
+    top: -17px;
+    right: 50px;
+  }
+  .section-buy-subscription-icon::before {
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    right: 50px;
+  }
+  .slider img {
+    width: 130px;
+  }
+  #btnBuySubscriptionMainHeader {
+    width: 100%;
+  }
+  .offer {
+    text-align: center;
+    width: 50%;
+    font-size: 8px;
+  }
+  footer .nav-item {
+    font-size: 13px;
+  }
+}

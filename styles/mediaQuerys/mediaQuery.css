@@ -22,7 +22,7 @@
     }
     /*The Lord of the rings*/
     .theLordOfRings {
-        background-image: url("../../images/Group\ 110.png");
+        background-image: url("../../assets/images/Group\ 110.png");
     }
     .theLordOfRings-title {
         font-size: 0.75rem;
@@ -58,16 +58,16 @@
         margin-left: 10px!important;
     }
     #item1.active {
-        background-image: url('../../images/Group\ 105.png');
+        background-image: url('../../assets/images/Group\ 105.png');
     }
     #item2.active {
-        background-image: url('../../images/Group\ 75.png');
+        background-image: url('../../assets/images/Group\ 75.png');
     }
     #item3.active {
-        background-image: url('../../images/Group\ 76.png');
+        background-image: url('../../assets/images/Group\ 76.png');
     }
     #item4.active {
-        background-image: url('../../images/Group\ 77.png');
+        background-image: url('../../assets/images/Group\ 77.png');
     }
     /*Iranian & Foriegn Series */
     .series {
@@ -175,6 +175,12 @@
     }
 }
 
+@media (max-width:500px) {
+    .me {
+        margin-left: 22rem;
+    }
+}
+
 @media screen and (min-width:567px) {
     /*Iranian & Foriegn Series */
     .series {
@@ -201,7 +207,7 @@
     }
     /*The Lord of the rings*/
     .theLordOfRings {
-        background-image: url("../../images/Group\ 103.png");
+        background-image: url("../../assets/images/Group\ 103.png");
     }
     .info-theLordOfRings {
         font-size: 10px;
@@ -216,6 +222,9 @@
     /*The Best Seller*/
     .slide {
         height: 440px;
+    }
+    .m-e {
+        margin-right: 12rem;
     }
 }
 
@@ -255,6 +264,12 @@
     }
 }
 
+@media (max-width:672px) {
+    .me {
+        margin-left: 18rem;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .title {
         font-size: 1.5rem;
@@ -283,19 +298,19 @@
     }
     /*aghazadeh*/
     #item1.active {
-        background-image: url('../../images/Group\ 107.png');
+        background-image: url('../../assets/images/Group\ 107.png');
     }
     /*razebagha*/
     #item2.active {
-        background-image: url('../../images/Group\ 112.png');
+        background-image: url('../../assets/images/Group\ 112.png');
     }
     /*zakhme kari */
     #item3.active {
-        background-image: url('../../images/Group\ 114.png');
+        background-image: url('../../assets/images/Group\ 114.png');
     }
     /*jeyran*/
     #item4.active {
-        background-image: url('../../images/Group\ 113.png');
+        background-image: url('../../assets/images/Group\ 113.png');
     }
     /*Iranian & Foriegn Series */
     .series {
@@ -303,6 +318,39 @@
     }
     .swiper-slide {
         margin-left: 30px!important;
+    }
+    .me {
+        margin-left: 15rem;
+    }
+}
+
+@media (max-width:780px) {
+    .m-e {
+        margin-right: 9rem;
+    }
+    .size {
+        width: 300px;
+        height: 200px;
+    }
+    .overlay-vizhe {
+        width: 300px;
+        height: 200px;
+    }
+    .div-vizhe {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        font-size: 3px;
+        padding: 0.8rem;
+        width: 300px;
+        height: 200px;
+    }
+    .btn-see {
+        width: 60px;
+        height: 20px;
+    }
+    .h-5 {
+        font-size: 15px;
     }
 }
 
@@ -321,6 +369,12 @@
     }
     .mt-6 {
         margin-top: 5.9rem;
+    }
+}
+
+@media (max-width:950px) {
+    .me {
+        margin-left: 12rem;
     }
 }
 
@@ -348,6 +402,18 @@
     }
     .icon {
         width: 45px;
+    }
+    .m-e {
+        margin-right: 7rem;
+    }
+}
+
+@media (max-width:1100px) {
+    .me {
+        margin-left: 8rem;
+    }
+    .m-e {
+        margin-right: 5rem;
     }
 }
 
@@ -388,6 +454,21 @@
     /*Iranian & Foriegn Series */
     .series {
         width: 200px;
+    }
+    .me {
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width:1350px) {
+    .me {
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width:1300px) {
+    .m-e {
+        margin-right: 3rem;
     }
 }
 
